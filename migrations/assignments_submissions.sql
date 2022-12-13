@@ -6,6 +6,7 @@ CREATE TABLE assignment_submissions (
     submission_date DATE
 );
 
+
 CREATE TABLE assignments (
     id SERIAL PRIMARY KEY NOT NULL,
     name VARCHAR(255),
